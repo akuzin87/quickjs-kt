@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../quickjs-kt/1.0.18-fix596.1/quickjs-kt-1.0.18-fix596.1.module",
+    "group": "io.github.dokar3",
+    "module": "quickjs-kt",
+    "version": "1.0.18-fix596.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.9.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-jvm.jar",
+          "url": "quickjs-kt-jvm-1.0.18-fix596.1.jar",
+          "size": 2378223,
+          "sha512": "add632a414a58cde6f471b4e40d09ce40bb8105bae31b223a3580605978ee06463b963b3d1c1bab30ef0dbf5d354820016b7515cf81ab41b3922731b7a7bf876",
+          "sha256": "6a6b512316953cbaabbd7559312432aef9ba9f14d6545545e687f4be44068b66",
+          "sha1": "6621b6fa7a705a76714abde883a3c0bab871b85b",
+          "md5": "6fc33787371ec609b4c8253008bb9575"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "quickjs-jvm.jar",
+          "url": "quickjs-kt-jvm-1.0.18-fix596.1.jar",
+          "size": 2378223,
+          "sha512": "add632a414a58cde6f471b4e40d09ce40bb8105bae31b223a3580605978ee06463b963b3d1c1bab30ef0dbf5d354820016b7515cf81ab41b3922731b7a7bf876",
+          "sha256": "6a6b512316953cbaabbd7559312432aef9ba9f14d6545545e687f4be44068b66",
+          "sha1": "6621b6fa7a705a76714abde883a3c0bab871b85b",
+          "md5": "6fc33787371ec609b4c8253008bb9575"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "quickjs-jvm-sources.jar",
+          "url": "quickjs-kt-jvm-1.0.18-fix596.1-sources.jar",
+          "size": 37191,
+          "sha512": "d9c3cfd0f88a8915e302cfb292fcdc3b8fcbc0159034d51c2c2dbb13ab8eb19946a559ca3736f76ef94e4372e05c3bacea1e0d6e13082100538109d1956db22c",
+          "sha256": "11b9970f36f1ed3004b4eb8ea38706fdef2d55e2d643e3ee6d9e230f166f6def",
+          "sha1": "d1f6b779e655866f7fe2c6446141418fe9da660e",
+          "md5": "ec02d20d77f48ff538f91728da0b1b54"
+        }
+      ]
+    }
+  ]
+}
